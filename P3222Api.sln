@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3222Api", "P3222Api\P3222Api.csproj", "{7CADDB27-980A-4620-9136-79B7FBCEC4D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CADDB27-980A-4620-9136-79B7FBCEC4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CADDB27-980A-4620-9136-79B7FBCEC4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CADDB27-980A-4620-9136-79B7FBCEC4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CADDB27-980A-4620-9136-79B7FBCEC4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA16A056-5959-4BC0-AF29-58BA2A2C9FE4}
+	EndGlobalSection
+EndGlobal
