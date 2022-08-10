@@ -17,7 +17,7 @@ namespace P3222Api.Controllers
         private readonly AppDbContext _context;
 
        
-public ProductController(AppDbContext context)
+        public ProductController(AppDbContext context)
         {
             _context = context;
         }
