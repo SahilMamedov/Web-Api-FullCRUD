@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using P3222Api.Configuration;
 using P3222Api.Models;
 using System;
 using System.Collections.Generic;
@@ -14,5 +15,10 @@ namespace P3222Api.Data
 
         }
         public DbSet<Product> Products { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+        }
     }
 }

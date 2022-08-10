@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace P3222Api.Models
 {
-    public class Product:BaseEntity
+    public class Category
     {
+        public int Id { get; set; }
         public string Name { get; set; }
-        public decimal Price { get; set; }
-        public bool IsActive { get; set; }
     }
 }
